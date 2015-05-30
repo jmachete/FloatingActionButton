@@ -6,10 +6,10 @@ android {
 
     defaultConfig {
         applicationId "com.github.fab.sample"
-        minSdkVersion 14
+        minSdkVersion 10
         targetSdkVersion 22
-        versionCode Integer.parseInt(project.VERSION_CODE)
-        versionName project.VERSION_NAME
+        versionCode 1
+        versionName "1.0.0"
     }
     buildTypes {
         release {
@@ -28,7 +28,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.0.0'
-    compile 'com.android.support:recyclerview-v7:22.0.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:recyclerview-v7:22.2.0'
     compile project(':library')
 }
