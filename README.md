@@ -4,7 +4,8 @@
 Yet another implementation of [Floating Action Button](http://www.google.com/design/spec/components/buttons.html#buttons-floating-action-button) for Android with lots of features.
 
 # Requirements
-The library requires Android **API Level 10+** through the use of NineOldAndroids Project.
+Minimum Android **API Level 10+**.
+NineOldAndroids is needed for backward compatibility 
 
 # Demo
 Watch a short **[Demo Video](https://youtu.be/XngUY3PN1IQ)** on YouTube or try it using **[Android simulator in the browser](https://appetize.io/app/ffreudbwmyedw5trzhyjknd2jg)** on Appetize.io.
